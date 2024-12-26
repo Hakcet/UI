@@ -1,0 +1,319 @@
+/* Hero section styles */
+#hero {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Dark background */
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease; /* Smooth transition for shrinking */
+    padding: 0;
+    margin: 0;
+}
+
+/* Shrunk hero section styles */
+#hero.shrink {
+    height: 80px; /* Shrinks to a smaller height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+}
+
+/* Title inside the hero */
+#main-title {
+    font-size: 10vw; /* Initially large text */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    opacity: 0.8;
+    text-align: center;
+    transition: font-size 0.3s ease, opacity 0.3s ease; /* Smooth transition for shrinking */
+}
+
+/* Shrunk title styles */
+#hero.shrink #main-title {
+    font-size: 3vw; /* Smaller title when hero shrinks */
+    opacity: 1; /* Keep the title fully visible */
+}
+
+/* Optional: to add spacing below the header */
+body {
+    padding-top: 80px; /* Make space for the fixed header */
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 5px solid #777777ab;
+    position:static;
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+header quiz{
+    font-size: large;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin: 25px 0;
+    padding: 22px;
+    background: rgba(154, 154, 154, 0.498);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #262626;
+    border-bottom: 2px solid #a0a0a0;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* List Styles */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Quiz Section */
+#quiz ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quiz ul li {
+    background: #e8f5e9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #888888;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 5px solid #b0b0b0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.Intro-section{
+    width: 550px;
+    height: 80px;
+    display: inline-block;
+}
+
+/* Basic styles */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.collapsible {
+    background-color: transparent;
+    color: #0d0d0d;
+    font-size: 12px; /* Larger font for better visibility */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth transition for the flip effect */
+}
+
+.Info-1 {
+    display: none; /* Hide the content initially */
+    padding-left: 20px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    margin-top: 5px;
+}
+
+.collapsible.active .arrow {
+    transform: rotate(180deg); /* Flip the arrow when active */
+}
+
+/* Style for the quiz section */
+#quiz {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+
+  /* Flex container for tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Styling for each tag */
+  .tag {
+    background-color: #686868;
+    color: #f3f3f3;
+    padding: 14px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start with a slight downward shift */
+    animation: fadeInUp 0.6s forwards; /* Animation properties */
+  }
+  
+  /* Delay the animation for each tag to make them appear one after the other */
+  .tag:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .tag:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .tag:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .tag:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .tag:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .tag:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  .tag:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  .tag:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  .tag:nth-child(9) {
+    animation-delay: 0.9s;
+  }
+  .tag:nth-child(10) {
+    animation-delay: 1s;
+  }
+  
+  /* Keyframe animation for fade-in and slide-up effect */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1; /* Fade in */
+      transform: translateY(0); /* Slide up to normal position */
+    }
+  }
+  

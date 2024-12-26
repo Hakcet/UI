@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn a new topic with this teaching webpage">
+    <title>Cyber security</title>
+    <!-- Link to an external CSS file and Javescipt file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="hero">
+        <h1 id="main-title">Cybersecurity</h1>
+    </section>    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#concepts">Key words</a></li>
+                <li class = "quiz"><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <div class="Intro-section">
+            <h2>Introduction</h2>
+            <p>Cybersecurity refers to the practice of protecting systems, networks, programs, and data from digital attacks, 
+                unauthorized access, theft, or damage. It is essential for individuals, organizations, and governments to 
+                safeguard sensitive information and maintain trust in digital systems.</p>
+            </div>
+        </section>
+
+        <h1>Key words of Cybersecurity</h1>
+        
+        <!--brute force-->
+        <section id="BruteForce">
+            <article>
+                <h2>Brute Force Attack:</h2>
+                <h4>What is a Brute Force Attack?</h4>
+                <ul>
+                    <li>Systematic Search<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">A brute force attack is a method where an attacker systematically tries all possible combinations of passwords or encryption keys until the correct one is found.</p>
+                    </li>
+                    <li>Exhaustive Testing<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attack involves exhaustive testing of every combination, which can take a significant amount of time depending on the strength of the password or encryption.</p>
+                    </li>
+                    <li>Weakness Exploitation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Brute force attacks are most effective against weak passwords (e.g., common phrases, short or simple passwords) and poorly secured systems.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Password Cracking: Trying all possible combinations of letters, numbers, and symbols until the correct password is found.</li>
+                    <li>PIN Code Attacks: Attempting every possible PIN code combination to gain access to a device or account.</li>
+                    <li>Encryption Key Cracking: Trying every possible key combination to decrypt data that has been encrypted.</li>
+                </ul>
+                <p>Defense Techniques:</p>
+                <ul>
+                    <li>Strong Passwords: Using long, complex passwords that are difficult to guess.</li>
+                    <li>Account Lockout: Limiting the number of incorrect attempts before locking the account or requiring additional verification.</li>
+                    <li>Multi-factor Authentication: Adding an additional layer of security (e.g., SMS code, authenticator apps) to protect against brute force attacks.</li>
+                </ul>
+            </article>
+        </section>
+        
+
+        <!--Phishing-->
+        <section id="Phishing">
+            <article>
+                <h2>Phishing:</h2>
+                <h4>How Phishing works?</h4>
+                <ul>
+                    <li>Bait<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker sends a fraudulent message (email, text, or social media post) designed to look legitimate.</p>
+                    </li>
+                    <li>Deception<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The message typically contains a link to a fake website or asks the user to respond with sensitive information.</p>
+                    </li>
+                    <li>Victim<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The victim enters personal data or credentials on the fake website or responds to the attacker, unknowingly handing over their information.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Email Phishing: Fake emails urging immediate action, like updating account information or confirming a payment.</li>
+                    <li>Spear Phishing: Personalized attacks targeting specific individuals or organizations.</li>
+                    <li>Whaling: Aimed at high-profile individuals, such as executives, often using highly sophisticated tactics.</li>
+                    <li>Smishing: Phishing via SMS text messages.</li>
+                    <li>Vishing: Voice phishing, where attackers call to extract information over the phone.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Ransomware-->
+        <section id="Ransomware"> 
+            <article>
+                <h2>Ransomware:</h2>
+                <h4>How Ransomware Works?</h4>
+                <ul>
+                    <li>Infection<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker infects the victim's system by exploiting vulnerabilities, often through malicious email attachments or compromised websites.</p>
+                    </li>
+                    <li>Encryption<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Once the malware is activated, it encrypts the victim’s files or systems, making them inaccessible.</p>
+                    </li>
+                    <li>Demand<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker demands a ransom payment, often in cryptocurrency, in exchange for the decryption key to restore access.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>WannaCry: A global ransomware attack that targeted Windows systems and encrypted user data.</li>
+                    <li>Locky: Spread through malicious email attachments disguised as invoices.</li>
+                    <li>Ryuk: Aimed at businesses and government organizations, often leading to significant financial losses.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Spyware -->
+        <section id="Spyware">
+            <article>
+                <h2>Spyware:</h2>
+                <h4>How Spyware Works?</h4>
+                <ul>
+                    <li>Installation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker installs spyware on a victim's device through software downloads, malicious links, or USB drives.</p>
+                    </li>
+                    <li>Data Collection<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The spyware secretly monitors user activities, capturing sensitive data like passwords, browsing history, or keystrokes.</p>
+                    </li>
+                    <li>Transmission<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The collected data is sent back to the attacker without the user’s knowledge.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Keyloggers: Record every keystroke entered by the user.</li>
+                    <li>Adware: Tracks user behavior to serve intrusive ads.</li>
+                    <li>Trojan Spyware: Disguises itself as legitimate software while stealing information.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Trojan-->
+        <section id="Trojan">
+            <article>
+                <h2>Trojan Horse:</h2>
+                <h4>What is a Trojan Horse?</h4>
+                <ul>
+                    <li>Deceptive Appearance<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">A Trojan Horse appears to be legitimate software or file but is actually malicious.</p>
+                    </li>
+                    <li>Installation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Once downloaded or executed, the Trojan installs malware, which may include ransomware, keyloggers, or backdoors.</p>
+                    </li>
+                    <li>Exploitation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker can exploit the system for malicious purposes, such as stealing data, corrupting files, or using the infected system as a launching pad for further attacks.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Backdoor Trojan: Creates an unmonitored entry point for remote access to the system.</li>
+                    <li>Downloader Trojan: Downloads additional malicious software to the infected system.</li>
+                    <li>Remote Access Trojan (RAT): Allows attackers to control the victim's system remotely.</li>
+                </ul>
+            </article>
+        </section>
+        
+        <!--MITM-->
+        <section id="MITM">
+            <article>
+                <h2>Man-in-the-Middle (MitM) Attack:</h2>
+                <h4>How Man-in-the-Middle Attacks work?</h4>
+                <ul>
+                    <li>Interception<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker intercepts communication between two parties, usually through an insecure network like public Wi-Fi.</p>
+                    </li>
+                    <li>Decryption<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker decrypts the data being transmitted, allowing them to read or modify the content without the victim's knowledge.</p>
+                    </li>
+                    <li>Impersonation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker may impersonate one of the parties, asking the other party for sensitive information or injecting malicious content.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Session Hijacking: The attacker steals a session token, gaining access to the victim’s ongoing session (e.g., in a banking app).</li>
+                    <li>SSL Stripping: Downgrading a secure HTTPS connection to an insecure HTTP connection for interception.</li>
+                    <li>DNS Spoofing: The attacker alters DNS records to redirect the victim to fake websites that appear legitimate.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--Dos-->
+        <section id="DoS">
+            <article>
+                <h2>Denial-of-Service (DoS) Attack:</h2>
+                <h4>What is a DoS Attack?</h4>
+                <ul>
+                    <li>Flooding<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The attacker floods the target server or network with traffic, overwhelming it and making it unable to respond to legitimate requests.</p>
+                    </li>
+                    <li>Resource Exhaustion<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">DoS attacks often consume resources like CPU, memory, or bandwidth, causing the system to crash or become slow and unresponsive.</p>
+                    </li>
+                    <li>Service Disruption<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">The goal is to disrupt the service for users or prevent access to important services or websites.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Ping of Death: The attacker sends an oversized ping packet, crashing the victim's system.</li>
+                    <li>Distributed DoS (DDoS): A more sophisticated form, using multiple systems to generate a high volume of traffic.</li>
+                    <li>Slowloris: An attack that sends partial HTTP requests, keeping connections open and tying up server resources.</li>
+                </ul>
+            </article>
+        </section>
+
+        <!--social engenriing-->
+        <section id="SocialEngineering">
+            <article>
+                <h2>Social Engineering:</h2>
+                <h4>What is Social Engineering?</h4>
+                <ul>
+                    <li>Manipulation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Social engineering involves manipulating individuals into divulging confidential information or performing actions that compromise security.</p>
+                    </li>
+                    <li>Psychological Tactics<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Attackers exploit human emotions like fear, urgency, or trust to gain unauthorized access or sensitive information.</p>
+                    </li>
+                    <li>Exploitation<button class="collapsible"><span class="arrow">&#9660;</span></button>
+                        <p class="Info-1">Once they have obtained the necessary information, the attacker exploits it for malicious purposes, such as financial fraud or identity theft.</p>
+                    </li>
+                </ul>
+                <p>Examples:</p>
+                <ul>
+                    <li>Pretexting: The attacker fabricates a scenario to obtain sensitive information from the victim.</li>
+                    <li>Baiting: The attacker offers something enticing to the victim in exchange for sensitive information (e.g., fake giveaways).</li>
+                    <li>Phishing: A specific form of social engineering where the attacker impersonates a trusted entity to collect credentials or sensitive information.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Basic Solution to Cybersecurity</h2>
+            <div class="tags">
+              <span class="tag">Use Strong, Unique Passwords</span>
+              <span class="tag">Enable Multi-Factor Authentication (MFA)</span>
+              <span class="tag">Regular Software Updates</span>
+              <span class="tag">Secure Wi-Fi Networks</span>
+              <span class="tag">Use Firewalls and Antivirus Software</span>
+              <span class="tag">Be Cautious with Emails and Links</span>
+              <span class="tag">Encrypt Your Data</span>
+              <span class="tag">Backup Your Data</span>
+              <span class="tag">Increase Awareness</span>
+              <span class="tag">Monitor and Audit Systems</span>
+            </div>
+          </section>
+          
+          
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Teaching Website. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
